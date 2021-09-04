@@ -17,6 +17,7 @@ class PlayerBase{
             rectMode(CENTER)
             imageMode(CENTER)
             image(this.image,0,0,this.length,this.height)
+            //rect(0,0,this.length,this.height)
         pop()
     }
 }
